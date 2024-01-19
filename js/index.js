@@ -35,46 +35,70 @@
 // let result = nums > 25 ? "Big" : "small";
 // console.log(result);
 
-let array = [69, false, 3.14, "I'm white","F"];
 
-let str = array.join(" + ");
-console.log(str);
+// array-and-stuff:
 
-array.splice(1, 1);
 
-console.log(array);
+// let array = [69, false, 3.14, "I'm white","F"];
 
-array[1] = true;
-array[3] = "I'm black";
-array[0] += 31;
-console.log(array[3]+" "+array[1]);
+// let str = array.join(" + ");
+// console.log(str);
 
-array[5] = "yes";
+// array.splice(1, 1);
 
-array.pop();
-array.push("Sam","Arta", 16);
+// console.log(array);
+
+// array[1] = true;
+// array[3] = "I'm black";
+// array[0] += 31;
+// console.log(array[3]+" "+array[1]);
+
+// array[5] = "yes";
+
+// array.pop();
+// array.push("Sam","Arta", 16);
 // array.shift();
-array.unshift();
+// array.unshift();
 
-// // array.length = 10;
-delete array[6];
+// array.length = 10;
+// delete array[6];
 
-console.log(array);
+// console.log(array);
 
 // console.log(array.length);
 // array.pop();
 
-let arr = new Array(5,2);
-console.log(arr);
+// let arr = new Array(5,2);
+// console.log(arr);
 
-let matrix = [
-    [21],
-    [7,"Carl Johnson"],
-    [10.2, 2004, "San Andreas" ]
-];
+// let matrix = [
+//     [21],
+//     [7,"Carl Johnson"],
+//     [10.2, 2004, "San Andreas" ]
+// ];
 
-console.log(matrix[1] [1]+" "+matrix[2] [2]);
+// console.log(matrix[1] [1]+" "+matrix[2] [2]);
 
-str = "Hello, world, 5, 0, qwerty";
-let aray_split = str.split(", ")
-console.log(aray_split);
+// str = "Hello, world, 5, 0, qwerty";
+// let aray_split = str.split(", ")
+// console.log(aray_split);
+
+
+// arrays and their functions:
+
+
+for(var u = 100; u >= 10; u -= 10) {
+console.log(u);
+}
+
+// let i = 1;
+// while(i <= 100) {
+//     console.log(i);
+//     i *= 2 ;
+// }
+
+var i =100;
+do {
+    console.log(i);
+    i++;
+} while(i < 10);
