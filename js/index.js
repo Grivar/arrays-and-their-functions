@@ -87,18 +87,27 @@
 // arrays and their functions:
 
 
-for(var u = 100; u >= 10; u -= 10) {
+for(var u = 0; u < 100; u += 5) {
+
+if(u >80 )
+break;
+
+if(u % 2 ==0)
+continue;
+
 console.log(u);
 }
 
-// let i = 1;
-// while(i <= 100) {
-//     console.log(i);
-//     i *= 2 ;
-// }
 
-var i =100;
-do {
-    console.log(i);
-    i++;
-} while(i < 10);
+
+
+let based = true;
+while(based) {
+    console.log("YEET!");;
+}
+
+// var i =100;
+// do {
+//     console.log(i);
+//     i++;
+// } while(i < 10);
